@@ -1,11 +1,11 @@
 platform :ios, '8.0'
 
-#source 'https://gitee.com/bizhanlu/BZLSpecs.git'
-#source 'https://cdn.cocoapods.org/'
+source 'https://gitee.com/bizhanlu/BZLSpecs.git'
+source 'https://cdn.cocoapods.org/'
 
 target 'PodDemo' do
-  #pod 'HRBocSignContract' , :path => '../'
-  pod 'HRBocSignContract',:git=>'https://gitee.com/bizhanlu/HRBocSignContract.git'
+  pod 'HRBocSignContract' , :path => '../'
+  #pod 'HRBocSignContract','~>2.1.2'
 end
 
 post_install do |installer|

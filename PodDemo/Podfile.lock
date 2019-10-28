@@ -17,7 +17,7 @@ PODS:
   - eCameraLib (1.0.0)
   - eHRFaceSDK (3.1.3.2)
   - FontAwesome (4.5.0)
-  - HRBocSignContract (2.1.3):
+  - HRBocSignContract (2.1.2):
     - AFNetworking
     - eCameraLib
     - eHRFaceSDK
@@ -46,7 +46,7 @@ PODS:
   - "UITableView+FDTemplateLayoutCell (1.6)"
 
 DEPENDENCIES:
-  - HRBocSignContract (from `https://gitee.com/bizhanlu/HRBocSignContract.git`)
+  - HRBocSignContract (from `../`)
 
 SPEC REPOS:
   https://gitee.com/bizhanlu/BZLSpecs.git:
@@ -68,19 +68,14 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   HRBocSignContract:
-    :git: https://gitee.com/bizhanlu/HRBocSignContract.git
-
-CHECKOUT OPTIONS:
-  HRBocSignContract:
-    :commit: 6f3affb50ae863ce7411acde8d396ff9464a3363
-    :git: https://gitee.com/bizhanlu/HRBocSignContract.git
+    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   eCameraLib: b73d438db4a0a7dcbc7d247b6ad26bc47818b0b7
   eHRFaceSDK: 58baec38ce1bcd6a892a3808cc275b2ade19235b
   FontAwesome: dd8c48bf965e771309d8af17c4d8579217b3e756
-  HRBocSignContract: e0dabbbc866ae46cbca1245821f10fccec7f1aef
+  HRBocSignContract: 43b86f5772f5b6fdd925d0a2cd433bee1a7fe17a
   HRLivingBodyDetection: 12fe091b45c30580d7de90066638c40b4b08ba59
   IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -92,6 +87,6 @@ SPEC CHECKSUMS:
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
-PODFILE CHECKSUM: 090468402435a1066ee63bf4b1c1a696f39d468c
+PODFILE CHECKSUM: 457fb873f56694bd916980a439dc8c2f2cbfaa7a
 
 COCOAPODS: 1.8.4

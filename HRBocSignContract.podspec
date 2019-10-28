@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
   s.dependency 'Toast'
   s.dependency 'Masonry'
   s.dependency 'FontAwesome'
+  s.dependency 'WPAttributedMarkup'
   s.dependency 'HRLivingBodyDetection/ZHSdkLib'
   s.dependency 'eHRFaceSDK'
   s.dependency 'eCameraLib'
