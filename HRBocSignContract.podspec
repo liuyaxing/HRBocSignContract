@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD'
   s.dependency 'IQKeyboardManager'
   s.dependency 'MJExtension'
-  s.dependency 'NIMSDK','~>6.6.7'
+  s.dependency 'NIMSDK'
   s.dependency 'UITableView+FDTemplateLayoutCell'
   s.dependency 'Toast'
   s.dependency 'Masonry'

@@ -32,6 +32,7 @@ PODS:
     - SDWebImage
     - Toast
     - "UITableView+FDTemplateLayoutCell"
+    - WPAttributedMarkup
   - HRLivingBodyDetection/ZHSdkLib (1.0.0)
   - IQKeyboardManager (6.5.0)
   - Masonry (1.1.0)
@@ -44,12 +45,14 @@ PODS:
   - SDWebImage/Core (5.2.3)
   - Toast (4.0.0)
   - "UITableView+FDTemplateLayoutCell (1.6)"
+  - WPAttributedMarkup (1.0.0)
 
 DEPENDENCIES:
-  - HRBocSignContract (from `../`)
+  - HRBocSignContract (~> 2.1.2)
 
 SPEC REPOS:
   https://gitee.com/bizhanlu/BZLSpecs.git:
+    - HRBocSignContract
     - HRLivingBodyDetection
   trunk:
     - AFNetworking
@@ -65,17 +68,14 @@ SPEC REPOS:
     - SDWebImage
     - Toast
     - "UITableView+FDTemplateLayoutCell"
-
-EXTERNAL SOURCES:
-  HRBocSignContract:
-    :path: "../"
+    - WPAttributedMarkup
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   eCameraLib: b73d438db4a0a7dcbc7d247b6ad26bc47818b0b7
   eHRFaceSDK: 58baec38ce1bcd6a892a3808cc275b2ade19235b
   FontAwesome: dd8c48bf965e771309d8af17c4d8579217b3e756
-  HRBocSignContract: 43b86f5772f5b6fdd925d0a2cd433bee1a7fe17a
+  HRBocSignContract: 58e5f2f0b85aabeb75a67f3df09226623950f1eb
   HRLivingBodyDetection: 12fe091b45c30580d7de90066638c40b4b08ba59
   IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -86,7 +86,8 @@ SPEC CHECKSUMS:
   SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
 
-PODFILE CHECKSUM: 457fb873f56694bd916980a439dc8c2f2cbfaa7a
+PODFILE CHECKSUM: 283565668531bd2105597e936953e85cd500dcdf
 
 COCOAPODS: 1.8.4
