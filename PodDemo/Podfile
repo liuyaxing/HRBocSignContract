@@ -2,7 +2,7 @@ platform :ios, '8.0'
 
 target 'PodDemo' do
   pod 'HRBocSignContract' , :path => '../'
-  #pod 'HRBocSignContract',:git=>'https://github.com/bizhanlu/BZLSpecs.git',:tag=>'~>2.1.2'
+  #pod 'HRBocSignContract',:git=>'https://github.com/bizhanlu/BZLSpecs.git',:tag=>'2.1.2'
 end
 
 post_install do |installer|
