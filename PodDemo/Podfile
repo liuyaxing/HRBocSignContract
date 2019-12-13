@@ -2,7 +2,8 @@ platform :ios, '8.0'
 
 target 'PodDemo' do
    pod 'HRLivingBodyDetection',:git=>'https://gitee.com/bizhanlu/HRLivingBodyDetection.git',:tag=>'1.0.0'
-  pod 'HRBocSignContract' , :path => '../'
+  pod 'HRBocSignContract',:git=>'https://gitee.com/bizhanlu/HRBocSignContract.git',:tag=>'2.1.5'
+#  pod 'HRBocSignContract' , :path => '../'
 #  pod 'HRBocSignContract','~>2.1.2'
 end
 
