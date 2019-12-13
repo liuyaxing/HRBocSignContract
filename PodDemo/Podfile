@@ -1,9 +1,7 @@
 platform :ios, '8.0'
 
-source 'https://gitee.com/bizhanlu/BZLSpecs.git'
-source 'https://cdn.cocoapods.org/'
-
 target 'PodDemo' do
+   pod 'HRLivingBodyDetection',:git=>'https://gitee.com/bizhanlu/HRLivingBodyDetection.git',:tag=>'1.0.0'
   pod 'HRBocSignContract' , :path => '../'
 #  pod 'HRBocSignContract','~>2.1.2'
 end

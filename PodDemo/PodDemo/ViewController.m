@@ -21,7 +21,7 @@
 - (void)viewDidLoad
 {
     _bankCodeTF.text = @"vx018010000020190718105613091";
-    _bankCodeTF.text = @"vx018010000020190923133105151";
+    _bankCodeTF.text = @"vx018040000020191211112446840";
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -30,7 +30,7 @@
     if(_bankCodeTF.text.length>0){
         
         
-        [[HRDomain instance] setSignHost:@"http://192.168.0.209:6464" andFaceHost:@"http://114.55.55.41:8998"];
+        [[HRDomain instance] setSignHost:@"http://192.168.0.33:9087" andFaceHost:@"http://114.55.55.41:8998"];
         
         [[HRBocSignContractInterface sharedUtil] signContractWithOrderNo:_bankCodeTF.text assurerNo:_assureNoTF.text signComplete:^(BOOL isCompleted, NSDictionary *signCompleteDic) {
             
