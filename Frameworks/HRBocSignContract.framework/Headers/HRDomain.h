@@ -14,9 +14,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy) NSString* signHost;
 @property(nonatomic,copy) NSString* faceHost;
 
+@property(nonatomic,copy) UIColor* btnBackgroundColor;
+@property(nonatomic,copy) UIColor* btnTitleColor;
+
+
 +(instancetype)instance;
 
 -(instancetype)setSignHost:(NSString*)signHost andFaceHost:(NSString*)faceHost;
+
+
+-(instancetype)setBtnBackgroundColor:(UIColor*)signHost andBtnTitleColor:(UIColor*)faceHost;
 
 @end
 

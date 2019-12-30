@@ -8,7 +8,6 @@
 
 
 #import <Foundation/Foundation.h>
-
 #import "HRDomain.h"
 typedef void(^successAlertResultBlock)(NSDictionary *successAlertDic);
 typedef void(^errorResultBlock)(NSDictionary *errorDic);

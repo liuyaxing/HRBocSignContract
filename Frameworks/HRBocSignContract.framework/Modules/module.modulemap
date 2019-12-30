@@ -1,0 +1,6 @@
+framework module HRBocSignContract {
+  umbrella header "HRBocSignContract-umbrella.h"
+
+  export *
+  module * { export * }
+}
