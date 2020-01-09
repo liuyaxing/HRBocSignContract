@@ -1,16 +1,14 @@
 platform :ios, '8.0'
 
 target 'PodDemo' do
-   pod 'HRLivingBodyDetection',:git=>'https://gitee.com/bizhanlu/HRLivingBodyDetection.git',:tag=>'1.0.0'
-  pod 'HRBocSignContract',:git=>'https://gitee.com/bizhanlu/HRBocSignContract.git',:tag=>'2.1.5'
-#  pod 'HRBocSignContract' , :path => '../'
-#  pod 'HRBocSignContract','~>2.1.2'
+   pod 'HRLivingBodyDetection',:git=>'https://gitee.com/bizhanlu/HRLivingBodyDetection.git',:tag=>'1.0.2'
+  pod 'HRBocSignContract',:git=>'https://gitee.com/bizhanlu/HRBocSignContract.git',:tag=>'2.1.7.1'
 end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['ARCHS'] = "arm64e arm64 armv7 armv7s"
+      config.build_settings['ARCHS'] = "arm64 armv7"
       config.build_settings['ENABLE_BITCODE'] = 'NO'
     end
   end
