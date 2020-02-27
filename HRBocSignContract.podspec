@@ -27,18 +27,10 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'MapKit','SystemConfiguration','CoreMotion','CoreMedia','AVFoundation'
 
-  s.dependency 'AFNetworking'
-  s.dependency 'MJRefresh'
-  s.dependency 'SDWebImage'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'IQKeyboardManager'
-  s.dependency 'MJExtension'
-  s.dependency 'NIMSDK'
+  s.dependency 'MBProgressHUD','1.1.0'
   s.dependency 'UITableView+FDTemplateLayoutCell'
   s.dependency 'Toast'
-  s.dependency 'Masonry'
-  s.dependency 'FontAwesome'
-  s.dependency 'WPAttributedMarkup'
   s.dependency 'eHRFaceSDK'
   s.dependency 'eCameraLib'
+
 end
