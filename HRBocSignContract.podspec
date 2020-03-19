@@ -27,7 +27,9 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'MapKit','SystemConfiguration','CoreMotion','CoreMedia','AVFoundation'
 
+
   s.dependency 'UITableView+FDTemplateLayoutCell'
   s.dependency 'eHRFaceSDK'
   s.dependency 'eCameraLib'
+
 end
