@@ -24,13 +24,16 @@
     _bankCodeTF.text = @"vx018040000020191211112446840";
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    _bankCodeTF.text = @"0bbc75cb-b912-48ae-95d7-e3e013273dcf";
+           _assureNoTF.text = @"R68690747";
 }
 - (IBAction)submitAction:(UIButton *)sender {
     
     if(_bankCodeTF.text.length>0){
         
         
-        [[HRDomain instance] setSignHost:@"http://192.168.0.33:9087" andFaceHost:@"http://114.55.55.41:8998"];
+        [[HRDomain instance] setSignHost:@"https://zjapi.hrfax.cn:29088" andFaceHost:@"http://114.55.55.41:8998"];
         
         [[HRBocSignContractInterface sharedUtil] signContractWithOrderNo:_bankCodeTF.text assurerNo:_assureNoTF.text signComplete:^(BOOL isCompleted, NSDictionary *signCompleteDic) {
             
