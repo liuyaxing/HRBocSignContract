@@ -34,6 +34,9 @@ FOUNDATION_EXPORT const unsigned char HRBocSignContractVersionString[];
  @param error 页面跳转失败，1.有些参数为nil 2.接口请求失败或者没有网络
 
  */
-- (void)signContractWithOrderNo:(NSString *)orderNo assurerNo:(NSString *)assurerNo signComplete:(SignCompleteCallBack)signCompleteCallBack  error:(errorResultBlock)error;
+
+-(void)signContractWithOrderNo:(NSString*)orderNo bankCode:(NSString*)bankCode platformNo:(NSString*)platformNo signComplete:(SignCompleteCallBack)signCompleteCallBack  error:(errorResultBlock)error;
+
+- (void)signContractWithOrderNo:(NSString *)orderNo assurerNo:(NSString *)assurerNo signComplete:(SignCompleteCallBack)signCompleteCallBack  error:(errorResultBlock)errorBlock;
 
 @end
