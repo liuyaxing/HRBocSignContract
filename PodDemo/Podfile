@@ -2,7 +2,8 @@ platform :ios, '8.0'
 
 target 'PodDemo' do
    pod 'HRLivingBodyDetection',:git=>'https://gitee.com/bizhanlu/HRLivingBodyDetection.git',:tag=>'1.0.2'
-  pod 'HRBocSignContract',:git=>'https://gitee.com/bizhanlu/HRBocSignContract.git',:tag=>'2.1.8'
+  pod 'eHRFaceSDK',:git=>'https://github.com/lytios/eHRFaceSDK.git',:tag=>'3.1.6.1'
+  pod 'HRBocSignContract',:git=>'https://gitee.com/bizhanlu/HRBocSignContract.git',:tag=>'2.2.3'
 end
 
 post_install do |installer|

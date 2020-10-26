@@ -16,9 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - AliyunOSSiOS (2.10.8)
   - eCameraLib (1.0.0)
-  - eHRFaceSDK (3.1.6):
+  - eHRFaceSDK (3.1.6.1):
     - AliyunOSSiOS
-  - HRBocSignContract (2.1.8):
+  - HRBocSignContract (2.2.3):
     - eCameraLib
     - eHRFaceSDK
     - "UITableView+FDTemplateLayoutCell"
@@ -54,20 +54,21 @@ PODS:
     - NIMSDK (~> 6.10.1)
     - SDWebImage
     - WPAttributedMarkup
-  - IQKeyboardManager (6.5.5)
+  - IQKeyboardManager (6.5.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.1)
-  - MJRefresh (3.3.1)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
   - NIMSDK (6.10.1)
-  - SDWebImage (5.6.0):
-    - SDWebImage/Core (= 5.6.0)
-  - SDWebImage/Core (5.6.0)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
   - "UITableView+FDTemplateLayoutCell (1.6)"
   - WPAttributedMarkup (1.0.0)
 
 DEPENDENCIES:
-  - HRBocSignContract (from `https://gitee.com/bizhanlu/HRBocSignContract.git`, tag `2.1.8`)
+  - eHRFaceSDK (from `https://github.com/lytios/eHRFaceSDK.git`, tag `3.1.6.1`)
+  - HRBocSignContract (from `https://gitee.com/bizhanlu/HRBocSignContract.git`, tag `2.2.3`)
   - HRLivingBodyDetection (from `https://gitee.com/bizhanlu/HRLivingBodyDetection.git`, tag `1.0.2`)
 
 SPEC REPOS:
@@ -75,7 +76,6 @@ SPEC REPOS:
     - AFNetworking
     - AliyunOSSiOS
     - eCameraLib
-    - eHRFaceSDK
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
@@ -87,17 +87,23 @@ SPEC REPOS:
     - WPAttributedMarkup
 
 EXTERNAL SOURCES:
+  eHRFaceSDK:
+    :git: https://github.com/lytios/eHRFaceSDK.git
+    :tag: 3.1.6.1
   HRBocSignContract:
     :git: https://gitee.com/bizhanlu/HRBocSignContract.git
-    :tag: 2.1.8
+    :tag: 2.2.3
   HRLivingBodyDetection:
     :git: https://gitee.com/bizhanlu/HRLivingBodyDetection.git
     :tag: 1.0.2
 
 CHECKOUT OPTIONS:
+  eHRFaceSDK:
+    :git: https://github.com/lytios/eHRFaceSDK.git
+    :tag: 3.1.6.1
   HRBocSignContract:
     :git: https://gitee.com/bizhanlu/HRBocSignContract.git
-    :tag: 2.1.8
+    :tag: 2.2.3
   HRLivingBodyDetection:
     :git: https://gitee.com/bizhanlu/HRLivingBodyDetection.git
     :tag: 1.0.2
@@ -106,19 +112,19 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   eCameraLib: b73d438db4a0a7dcbc7d247b6ad26bc47818b0b7
-  eHRFaceSDK: b88a0efa846972bc86a97c7c73dd2c3441c41e06
-  HRBocSignContract: 9871fee18e59830cd2c93e11eebe38c17e392911
+  eHRFaceSDK: 26d49ed78852a18ec6e83b9001108fef4afb925c
+  HRBocSignContract: 66b2f88371395510b1ec6f1318243d96792fc38f
   HRLivingBodyDetection: 5942c85efe93cd603b5c370aab149da164a8d00f
-  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   NIMSDK: f2fbf1729e352fbe6345adf1d081a9ac8856b7cb
-  SDWebImage: 21b19f56b4226cdfe3aefe4e6848dc43ed129a86
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
 
-PODFILE CHECKSUM: 05b054388a8ea37de0adc817137d65e49843b65a
+PODFILE CHECKSUM: c6f6dd76ebca69ab31bed88a6160be457944db45
 
 COCOAPODS: 1.8.4
