@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRBocSignContract'
-  s.version          = '2.2.3.1' #成绩gitlab上的2.1.11，是其下一个版本
+  s.version          = '2.2.4' #成绩gitlab上的2.1.11，是其下一个版本
   s.summary          = '远程签约SDK'
 
   s.description      = <<-DESC
