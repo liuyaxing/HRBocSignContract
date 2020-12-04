@@ -39,6 +39,4 @@ FOUNDATION_EXPORT const unsigned char HRBocSignContractVersionString[];
 
 - (void)signContractWithOrderNo:(NSString *)orderNo assurerNo:(NSString *)assurerNo signComplete:(SignCompleteCallBack)signCompleteCallBack  error:(errorResultBlock)errorBlock;
 
-- (void)signContractWithOrderNo:(NSString *)orderNo assurerNo:(NSString *)assurerNo isMachine:(NSString*)isMachine signComplete:(SignCompleteCallBack)signCompleteCallBack  error:(errorResultBlock)errorBlock;
-
 @end
