@@ -26,7 +26,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     _bankCodeTF.text = @"0bbc75cb-b912-48ae-95d7-e3e013273dcf";
-           _assureNoTF.text = @"R68690747";
+    _assureNoTF.text = @"R68690747";
 }
 - (IBAction)submitAction:(UIButton *)sender {
     
