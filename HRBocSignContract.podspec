@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRBocSignContract'
-  s.version          = '2.2.8' #成绩gitlab上的2.1.11，是其下一个版本
-  s.summary          = '远程签约SDK'
+  s.version          = '2.2.8.xp'
+  s.summary          = '电子签约SDK'
 
   s.description      = <<-DESC
                 远程签约SDK，用来集成APP
@@ -25,11 +25,9 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/*'
   s.resources = 'Resources/*'
 
-  s.frameworks = 'UIKit', 'MapKit','SystemConfiguration','CoreMotion','CoreMedia','AVFoundation'
+  s.frameworks = 'UIKit', 'MapKit','SystemConfiguration','CoreMotion','CoreMedia','AVFoundation','MobileCoreServices'
 
 
   s.dependency 'UITableView+FDTemplateLayoutCell'
-  s.dependency 'eHRFaceSDK'
-  s.dependency 'eCameraLib'
 
 end
