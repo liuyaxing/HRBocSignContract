@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRBocSignContract'
-  s.version          = '2.2.8.xp'
+  s.version          = '2.2.7.xp'
   s.summary          = '电子签约SDK'
 
   s.description      = <<-DESC
